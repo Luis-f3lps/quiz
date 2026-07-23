@@ -12,9 +12,19 @@ const explanationText = document.getElementById('explanation-text');
 const nextBtn = document.getElementById('next-btn');
 
 async function loadQuestions() {
-  const response = await fetch('/api/questoes');
-  questions = await response.json();
-  showQuestion();
+  try {
+    const response = await fetch('./questions.json'); 
+    
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar perguntas: Status ${response.status}`);
+    }
+
+    questions = await response.json();
+    showQuestion();
+  } catch (error) {
+    console.error("Erro ao carregar o quiz:", error);
+    document.getElementById('question-text').innerText = "Erro ao carregar as questões. Verifique o console ou o caminho do arquivo JSON.";
+  }
 }
 
 function showQuestion() {

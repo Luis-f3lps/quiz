@@ -1,35 +1,222 @@
 [
   {
-    "pergunta": "Qual é a principal função do protocolo DNS na internet?",
+    "pergunta": "De acordo com a regra geral da LINDB, qual é o prazo para que uma lei entre em vigor no Brasil após a sua publicação oficial, caso não haja disposição em contrário?",
     "opcoes": [
-      "Criptografar dados enviados entre cliente e servidor",
-      "Traduzir nomes de domínio em endereços IP",
-      "Aumentar a velocidade da conexão de internet",
-      "Bloquear ataques de malwares e vírus"
+      "30 dias",
+      "45 dias",
+      "60 dias",
+      "90 dias"
     ],
     "correta": 1,
-    "explicacao": "O DNS (Domain Name System) funciona como uma lista telefônica da internet, convertendo nomes de domínio legíveis por humanos (como google.com) nos endereços IP numéricos que os computadores usam para se comunicar."
+    "explicacao": "Conforme o Artigo 1º da LINDB, salvo disposição contrária, a lei começa a vigorar em todo o país 45 (quarenta e cinco) dias depois de oficialmente publicada."
   },
   {
-    "pergunta": "Em JavaScript, qual método é utilizado para adicionar um ou mais elementos ao final de um array?",
+    "pergunta": "Quando uma lei brasileira é admitida em Estados estrangeiros, qual é o prazo estipulado pela LINDB para o início de sua vigência no exterior, salvo disposição expressa em contrário?",
     "opcoes": [
-      "push()",
-      "pop()",
-      "shift()",
-      "unshift()"
+      "1 mês",
+      "45 dias",
+      "3 meses",
+      "6 meses"
+    ],
+    "correta": 2,
+    "explicacao": "O Artigo 1º, § 1º, da LINDB determina que, nos Estados estrangeiros, a obrigatoriedade da lei brasileira, quando admitida, se inicia 3 (três) meses depois de oficialmente publicada."
+  },
+  {
+    "pergunta": "Como é denominado o fenômeno jurídico que consiste na revogação TOTAL de uma lei anterior por uma nova lei?",
+    "opcoes": [
+      "Ab-rogação",
+      "Derrogação",
+      "Repristinação",
+      "Subsunção"
     ],
     "correta": 0,
-    "explicacao": "O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array. O pop() remove do final, shift() remove do início e unshift() adiciona no início."
+    "explicacao": "A ab-rogação ocorre quando uma lei é inteiramente suprimida/revogada por outra. Já a derrogação refere-se à revogação apenas parcial de uma norma."
   },
   {
-    "pergunta": "Qual código de status HTTP indica que o recurso solicitado não foi encontrado no servidor?",
+    "pergunta": "Se uma nova lei revoga apenas dois artigos de uma lei anterior, mantendo o restante do texto legal em pleno vigor, ocorreu uma:",
     "opcoes": [
-      "200 OK",
-      "500 Internal Server Error",
-      "403 Forbidden",
-      "404 Not Found"
+      "Vacatio legis",
+      "Repristinação tácita",
+      "Ab-rogação",
+      "Derrogação"
     ],
     "correta": 3,
-    "explicacao": "O código 404 Not Found é o status padrão do protocolo HTTP retornado por um servidor quando ele não consegue localizar o recurso ou página que o cliente tentou acessar."
+    "explicacao": "A derrogação é a revogação parcial de uma lei, ou seja, apenas parte do seu texto (alguns artigos, incisos ou parágrafos) deixa de existir no ordenamento jurídico."
+  },
+  {
+    "pergunta": "Segundo a LINDB, qual é a regra geral para o fenômeno da repristinação no ordenamento jurídico brasileiro?",
+    "opcoes": [
+      "A repristinação ocorre automaticamente sempre que uma lei revogadora é revogada.",
+      "A repristinação não ocorre de forma automática, necessitando de disposição expressa.",
+      "A repristinação é permitida apenas para normas de direito internacional privado.",
+      "A repristinação é vedada em qualquer hipótese no Brasil, mesmo com previsão expressa."
+    ],
+    "correta": 1,
+    "explicacao": "O Artigo 2º, § 3º, da LINDB estabelece que a lei revogada não se restaura por ter a lei revogadora perdido a vigência, salvo disposição em contrário (previsão expressa)."
+  },
+  {
+    "pergunta": "Quando a lei for omissa, o juiz decidirá o caso de acordo com as fontes integrativas do direito. Qual é a ordem rigorosa dessas fontes estipulada pelo Art. 4º da LINDB?",
+    "opcoes": [
+      "Costumes, jurisprudência e doutrina",
+      "Princípios gerais de direito, analogia e equidade",
+      "Analogia, costumes e princípios gerais de direito",
+      "Jurisprudência, costumes e analogia"
+    ],
+    "correta": 2,
+    "explicacao": "O Artigo 4º da LINDB expressa claramente: 'Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito'."
+  },
+  {
+    "pergunta": "Com base no princípio da obrigatoriedade das leis (Art. 3º da LINDB), assinale a alternativa correta sobre o desconhecimento da norma:",
+    "opcoes": [
+      "Ninguém se escusa de cumprir a lei, alegando que não a conhece.",
+      "O cidadão pode deixar de cumprir a lei se provar que não teve acesso ao Diário Oficial.",
+      "A alegação de desconhecimento da lei é válida apenas em questões de direito civil.",
+      "Os estrangeiros estão isentos do cumprimento das leis brasileiras por 45 dias."
+    ],
+    "correta": 0,
+    "explicacao": "O Artigo 3º da LINDB consagra o princípio da inescusabilidade, determinando que 'ninguém se escusa de cumprir a lei, alegando que não a conhece', garantindo a segurança jurídica."
+  },
+  {
+    "pergunta": "Como se comporta a vigência de uma lei temporária no direito brasileiro segundo o princípio da continuidade (Art. 2º da LINDB)?",
+    "opcoes": [
+      "Ela depende de uma nova lei para ser formalmente revogada.",
+      "Sua vigência cessa automaticamente pelo término do prazo nela fixado.",
+      "Ela perde a eficácia assim que o Congresso Nacional entra em recesso.",
+      "Ela se torna permanente se não for contestada pelo STF no prazo de 1 ano."
+    ],
+    "correta": 1,
+    "explicacao": "A lei temporária já nasce com seu tempo de duração prefixado. Portanto, não necessita de outra lei para revogá-la; sua vigência cessa com o fim do prazo fixado pelo legislador."
+  },
+  {
+    "pergunta": "O que acontece quando uma lei nova estabelece disposições gerais ou especiais a par das já existentes em uma lei anterior (Art. 2º, § 2º)?",
+    "opcoes": [
+      "A lei anterior é totalmente ab-rogada de forma expressa.",
+      "A lei nova não revoga nem modifica a lei anterior.",
+      "A lei anterior perde a vigência por incompatibilidade tácita.",
+      "Ocorre a repristinação imediata das normas contrárias."
+    ],
+    "correta": 1,
+    "explicacao": "Conforme o § 2º do Artigo 2º da LINDB, 'a lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior'."
+  },
+  {
+    "pergunta": "Diante de uma lacuna legislativa, o princípio da vedação ao 'non liquet' obriga que o magistrado:",
+    "opcoes": [
+      "Não deixe de sentenciar ou decidir o caso, devendo utilizar as ferramentas de integração da lei.",
+      "Dê o processo por encerrado sem resolução do mérito até que o Congresso crie uma lei.",
+      "Transfira a decisão para o Supremo Tribunal Federal criar uma súmula vinculante.",
+      "Aplique apenas o bom senso individual, ignorando o ordenamento jurídico."
+    ],
+    "correta": 0,
+    "explicacao": "O juiz não pode se eximir de decidir alegando que a lei é omissa ou lacunosa (vedação ao non liquet). Ele é obrigado a julgar utilizando a analogia, os costumes e os princípios gerais de direito."
+  },
+  {
+    "pergunta": "Para garantir a segurança jurídica e a irretroatividade da lei nova, a LINDB protege o Ato Jurídico Perfeito, que é definido como:",
+    "opcoes": [
+      "O direito que já se incorporou definitivamente ao patrimônio de seu titular.",
+      "A decisão judicial contra a qual não cabe mais nenhum recurso.",
+      "O ato já consumado segundo a lei vigente ao tempo em que se efetuou.",
+      "O contrato celebrado entre cidadãos brasileiros que residem em território estrangeiro."
+    ],
+    "correta": 2,
+    "explicacao": "Conforme o Artigo 6º, § 1º, da LINDB, reputa-se ato jurídico perfeito o já consumado segundo a lei vigente ao tempo em que se efetuou."
+  },
+  {
+    "pergunta": "Segundo o Artigo 7º da LINDB, qual critério determina a lei aplicável sobre o começo e o fim da personalidade, o nome, a capacidade e os direitos de família?",
+    "opcoes": [
+      "A lei da nacionalidade da pessoa, independentemente de onde resida.",
+      "A lei do país em que a pessoa for domiciliada.",
+      "A lei do país onde a pessoa nasceu (lex loci nativitatis).",
+      "A lei do tribunal que estiver julgando a causa (lex fori)."
+    ],
+    "correta": 1,
+    "explicacao": "O Brasil adota o critério do domicílio (lex domicilii). O Artigo 7º dispõe que a lei do país em que domiciliada a pessoa determina as regras sobre personalidade, nome, capacidade e direitos de família."
+  },
+  {
+    "pergunta": "Para qualificar os bens e reger as relações a eles concernentes, a LINDB adota a regra da 'lex rei sitae', que significa aplicar:",
+    "opcoes": [
+      "A lei do país em que o proprietário dos bens nasceu.",
+      "A lei do local de celebração do contrato de compra e venda.",
+      "A lei do país onde os bens forem herdados após o falecimento.",
+      "A lei do país em que os bens estiverem situados."
+    ],
+    "correta": 3,
+    "explicacao": "De acordo com o Artigo 8º da LINDB, para qualificar os bens e reger as relações a eles concernentes, aplicar-se-á a lei do país em que estiverem situados."
+  },
+  {
+    "pergunta": "Qual é a regra da LINDB para qualificar e reger as obrigações e contratos no que tange ao Direito Internacional Privado?",
+    "opcoes": [
+      "Aplica-se a lei do país em que se constituírem as obrigações.",
+      "Aplica-se sempre a lei brasileira, caso o contrato seja em moeda nacional.",
+      "Aplica-se a lei do domicílio do credor em qualquer situação.",
+      "Aplica-se a lei do país que oferecer mais vantagens financeiras às partes."
+    ],
+    "correta": 0,
+    "explicacao": "Conforme o Artigo 9º da LINDB, as obrigações qualificam-se e regem-se pela lei do país em que se constituírem (regra da lex loci celebrationis)."
+  },
+  {
+    "pergunta": "A revogação de uma lei pode ser expressa ou tácita. Nos termos da LINDB, a revogação TÁCITA ocorre quando:",
+    "opcoes": [
+      "A lei nova declara textualmente em seu último artigo qual lei anterior está revogada.",
+      "O Presidente da República emite um decreto anulando o texto da lei anterior.",
+      "A lei nova é incompatível com a anterior ou regula inteiramente a matéria de que ela tratava.",
+      "A lei entra em período de vacatio legis superior a um ano contínuo."
+    ],
+    "correta": 2,
+    "explicacao": "O Artigo 2º, § 1º, da LINDB estabelece que a lei posterior revoga a anterior quando expressamente o declare, quando seja com ela incompatível ou quando regule inteiramente a matéria de que tratava a lei anterior (estas duas últimas são hipóteses de revogação tácita)."
+  },
+  {
+    "pergunta": "De acordo com a proteção aos direitos na LINDB, a decisão judicial de que já não caiba mais recurso é denominada:",
+    "opcoes": [
+      "Ato jurídico perfeito",
+      "Coisa julgada",
+      "Direito adquirido",
+      "Sentença repristinada"
+    ],
+    "correta": 1,
+    "explicacao": "Nos termos do Artigo 6º, § 3º, da LINDB, chama-se coisa julgada ou caso julgado a decisão judicial de que já não caiba recurso."
+  },
+  {
+    "pergunta": "Qual é a única hipótese em que a LINDB admite que uma lei revogada volte a vigorar após a revogação da lei que a havia revogado?",
+    "opcoes": [
+      "Quando a terceira lei revogadora for uma Medida Provisória.",
+      "Quando o juiz do caso concreto julgar que a lei antiga era mais benéfica.",
+      "Quando o Supremo Tribunal Federal emitir um parecer sugerindo a volta da lei.",
+      "Quando houver disposição expressa na nova lei determinando a restauração da lei antiga."
+    ],
+    "correta": 3,
+    "explicacao": "A repristinação só é admitida no direito brasileiro se houver previsão expressa na nova lei, conforme a exceção do Artigo 2º, § 3º ('salvo disposição em contrário')."
+  },
+  {
+    "pergunta": "Qual tipo de costume é admitido pela LINDB como fonte integrativa no caso de omissão ou lacuna da lei?",
+    "opcoes": [
+      "Costume praeter legem (na falta da lei)",
+      "Costume contra legem (contrário à lei)",
+      "Costume secundum legem (segundo a lei)",
+      "Costume ab-rogante (capaz de revogar leis escritas)"
+    ],
+    "correta": 0,
+    "explicacao": "A LINDB adota o costume 'praeter legem' no Art. 4º, ou seja, aquele que atua na falta ou omissão da lei para integrar o ordenamento jurídico. O costume contra legem não é admitido para revogar leis."
+  },
+  {
+    "pergunta": "Como a LINDB trata o casamento de estrangeiros celebrado no Brasil em relação aos impedimentos dirimentes e às formalidades da celebração?",
+    "opcoes": [
+      "Aplica-se exclusivamente a lei do país de origem dos noivos.",
+      "Aplica-se a lei do país onde os noivos pretendem fixar residência futura.",
+      "Aplica-se a lei brasileira quanto aos impedimentos dirimentes e formalidades da celebração.",
+      "O casamento não pode ser celebrado no Brasil sem autorização consular prévia."
+    ],
+    "correta": 2,
+    "explicacao": "O Artigo 7º, § 1º, da LINDB determina que, realizando-se o casamento no Brasil, será aplicada a lei brasileira quanto aos impedimentos dirimentes e às formalidades da celebração."
+  },
+  {
+    "pergunta": "O método de integração da lei que consiste em aplicar a uma hipótese não prevista pelo legislador uma norma legal relativa a um caso semelhante se chama:",
+    "opcoes": [
+      "Equidade judiciária",
+      "Analogia",
+      "Derrogação sistemática",
+      "Subsunção direta"
+    ],
+    "correta": 1,
+    "explicacao": "A analogia é o processo integrativo que consiste em aplicar a um caso não previsto em lei (omissão) uma norma jurídica que regulamenta um caso semelhante."
   }
 ]

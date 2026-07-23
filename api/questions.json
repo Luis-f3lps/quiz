@@ -1,0 +1,35 @@
+[
+  {
+    "pergunta": "Qual é a principal função do protocolo DNS na internet?",
+    "opcoes": [
+      "Criptografar dados enviados entre cliente e servidor",
+      "Traduzir nomes de domínio em endereços IP",
+      "Aumentar a velocidade da conexão de internet",
+      "Bloquear ataques de malwares e vírus"
+    ],
+    "correta": 1,
+    "explicacao": "O DNS (Domain Name System) funciona como uma lista telefônica da internet, convertendo nomes de domínio legíveis por humanos (como google.com) nos endereços IP numéricos que os computadores usam para se comunicar."
+  },
+  {
+    "pergunta": "Em JavaScript, qual método é utilizado para adicionar um ou mais elementos ao final de um array?",
+    "opcoes": [
+      "push()",
+      "pop()",
+      "shift()",
+      "unshift()"
+    ],
+    "correta": 0,
+    "explicacao": "O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array. O pop() remove do final, shift() remove do início e unshift() adiciona no início."
+  },
+  {
+    "pergunta": "Qual código de status HTTP indica que o recurso solicitado não foi encontrado no servidor?",
+    "opcoes": [
+      "200 OK",
+      "500 Internal Server Error",
+      "403 Forbidden",
+      "404 Not Found"
+    ],
+    "correta": 3,
+    "explicacao": "O código 404 Not Found é o status padrão do protocolo HTTP retornado por um servidor quando ele não consegue localizar o recurso ou página que o cliente tentou acessar."
+  }
+]

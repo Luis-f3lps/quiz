@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -9,6 +8,10 @@ app.get('/api/questoes', (req, res) => {
   res.sendFile(path.join(__dirname, 'questions.json'));
 });
 
-app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
-});
+// Para desenvolvimento local
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(3000, () => console.log('Servidor rodando localmente na porta 3000'));
+}
+
+// Para a Vercel executar como Serverless Function
+module.exports = app;
